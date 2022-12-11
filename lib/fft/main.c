@@ -77,7 +77,7 @@ int main(int argc,  char **argv)
   for(i=0;i<100000;i++) fft(data5_re, data5_im, 128);
   stop = clock();
   cpu_time_used = ((double) (stop - start)) / CLOCKS_PER_SEC;
-  printf("Average time per fft %fms", cpu_time_used/1000);
+  printf("Average time per fft %fms\n", cpu_time_used/1000);
 }
 
 void print_test_result(int tc_re, int tc_im, int tc_num)
