@@ -34,6 +34,12 @@ This image may take a few minutes to refresh.
 -->
 ![A rendered view of the blocks](https://github.com/jp-rad/pxt-ubit-extension/raw/master/.github/statics/blocks.png)
 
+## FFT library
+
+[lloydroc/arduino_fft](https://github.com/lloydroc/arduino_fft) is a simple FFT in written in C, intended for the Arduino.
+
+
+
 #### Metadata (used for search, rendering)
 
 * for PXT/microbit
